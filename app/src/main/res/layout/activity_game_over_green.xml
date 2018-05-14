@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vsoftcoders.ludogame.activity.GameOverRed">
+    <Button
+        android:id="@+id/btnTitle"
+        android:layout_width="@dimen/_90sdp"
+        android:layout_height="@dimen/_90sdp"
+        android:background="@drawable/icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_40sdp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_marginTop="@dimen/_150sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Congratulations! Green WON. "
+        android:textSize="@dimen/_30sdp"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="@dimen/_110sdp"
+        android:layout_height="@dimen/_110sdp"
+        android:background="@drawable/rounded_play"
+        android:layout_marginTop="@dimen/_300sdp"
+        android:layout_centerHorizontal="true"
+        android:onClick="over"
+        android:text="REPLAY"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold"
+        />
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_10sdp"
+        ads:adSize="BANNER"
+        android:layout_alignParentBottom="true"
+        ads:adUnitId="@string/BANNER_ADMOB_APP_ID"></com.google.android.gms.ads.AdView>
+
+
+</RelativeLayout>

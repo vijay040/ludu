@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Ludu</string>
+    <string name="title_activity_game_over">GameOver</string>
+    <string name="title_activity_game_over_red">GameOverRed</string>
+    <string name="title_activity_game_over_green">GameOverGreen</string>
+    <string name="title_activity_game_over_blue">GameOverBlue</string>
+    <string name="title_activity_game_over_yellow">GameOverYellow</string>
+    <string name="help">\?</string>
+    <string name="BANNER_ADMOB_APP_ID">ca-app-pub-7517176815914185/5627627861</string>
+    <string name="FULL_ADMOB_APP_ID">ca-app-pub-7517176815914185/2047475506</string>
+    <string name="ADMOB_APP_ID">ca-app-pub-7517176815914185~2286901238</string>
+    <string name="TEST_ADMOB_APP_ID">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="help_text">Players take turns in a clockwise order; highest throw of the die starts.  Each throw, the player decides which piece to move. A piece simply moves in a clockwise direction around the track given by the number thrown. If no piece can legally move according to the number thrown, play passes to the next player.  A throw of 1 or 6 gives another turn.  A player must throw a 1 to move a piece from the starting circle onto the first square on the track. The piece moves 1 squares around the circuit beginning with the appropriately coloured start square (and the player then has another turn).  If a piece lands on a piece of a different colour, the piece jumped upon is returned to its starting circle.  If a piece lands upon a piece of the same colour, this forms a block. This block cannot be passed or landed on by any opposing piece.            </string>
+    <string name="game_rule">Players take turns in a clockwise order,A throw of 1 or 6 gives another turn.  A player must throw a 1 to move a piece from the starting circle onto the first square on the track.   If a piece lands on a piece of a different colour, the piece jumped upon is returned to its starting circle. There is no any stops.</string>
+</resources>

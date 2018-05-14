@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    >
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/_25sdp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/white"
+        />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:background="@drawable/help"
+       android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txtTitle"
+        android:layout_marginTop="@dimen/_10sdp"
+        />
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/_220sdp"
+    android:layout_below="@+id/img"
+    android:layout_margin="@dimen/_10sdp"
+    >
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/help_text"
+        android:textSize="@dimen/_12sdp"
+        />
+</ScrollView>
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/BANNER_ADMOB_APP_ID"></com.google.android.gms.ads.AdView>
+
+
+</RelativeLayout>

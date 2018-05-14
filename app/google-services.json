@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "164592687654",
+    "firebase_url": "https://ludu-69f43.firebaseio.com",
+    "project_id": "ludu-69f43",
+    "storage_bucket": "ludu-69f43.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164592687654:android:1c4f230c0c3fdac6",
+        "android_client_info": {
+          "package_name": "com.vsoftcoders.ludogame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164592687654-tl5a7amm8bk5do34m816dop44ph1cn8f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vsoftcoders.ludogame",
+            "certificate_hash": "28f953e5657ca9d45c7e9360b50fccf996675678"
+          }
+        },
+        {
+          "client_id": "164592687654-2vstbfbg1omuoko5it7f33ffqo7b03h7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF09wLmToF61JDjSpl6F0IjypFWN_gvRM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "164592687654-2vstbfbg1omuoko5it7f33ffqo7b03h7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

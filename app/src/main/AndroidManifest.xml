@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.vsoftcoders.ludogame">
+
+    <application
+        android:name=".util.VsoftApp"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="icon">
+        <activity
+            android:name=".activity.SplashScreen"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.Game" />
+        <activity android:name=".activity.PlayerSelect" />
+
+        <activity
+            android:name=".activity.GameOverRed"
+            android:label="@string/title_activity_game_over_red" android:noHistory="true"/>
+        <activity
+            android:name=".activity.GameOverGreen"
+            android:label="@string/title_activity_game_over_green" android:noHistory="true" />
+        <activity
+            android:name=".activity.GameOverBlue"
+            android:label="@string/title_activity_game_over_blue" android:noHistory="true"/>
+        <activity
+            android:name=".activity.GameOverYellow"
+            android:label="@string/title_activity_game_over_yellow" android:noHistory="true"></activity>
+
+        <activity android:name=".activity.GameMenuActivity"></activity>
+        <activity android:name=".activity.HelpActivity"></activity>
+        <activity android:name=".activity.AboutActivity"></activity>
+        <activity android:name=".activity.TopScorersActivity"></activity>
+    </application>
+
+</manifest>

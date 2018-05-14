@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '26.0.2'
+
+    defaultConfig {
+        applicationId "com.vsoftcoders.ludogame"
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.intuit.sdp:sdp-android:1.0.3'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'de.hdodenhof:circleimageview:2.0.0'
+    compile 'com.squareup.okhttp3:logging-interceptor:+'
+    compile 'org.jsoup:jsoup:1.8.3'
+    compile 'com.google.firebase:firebase-auth:11.0.0'
+    compile 'com.google.firebase:firebase-database:11.0.0'
+    compile 'com.google.firebase:firebase-ads:11.0.0'
+    compile 'com.google.code.gson:gson:2.7'
+    implementation 'com.google.firebase:firebase-config:11.0.0'
+    compile 'com.github.f0ris.sweetalert:library:1.5.1'
+}
+apply plugin: 'com.google.gms.google-services'

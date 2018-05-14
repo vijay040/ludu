@@ -1,0 +1,22 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="#000"/>
+    <stroke
+        android:width="2dp"
+        android:color="#FF3361"/>
+</shape>
+<!--
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="oval">
+            <item android:drawable="@drawable/soundon" />
+            <solid android:color="#000" />
+            <stroke
+                android:width="2dp"
+                android:color="#00007F" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/ic_speakeron" />
+
+</layer-list>-->
